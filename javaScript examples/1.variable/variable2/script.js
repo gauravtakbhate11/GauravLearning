@@ -26,6 +26,8 @@ const person={
 function sayhello(){
     console.log('hello');
 }
+
+
 const output=sayhello;
 console.log(output,typeof output)
 
