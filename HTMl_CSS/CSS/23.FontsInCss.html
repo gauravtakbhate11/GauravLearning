@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Basic Css selector</title>
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        line-height: 1.6em;
+      }
+      #welcome p span {
+        font-weight: bold;
+      }
+
+      #about p span {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="welcome">
+      <h2 class="primary-heading">My website</h2>
+      <p>
+        Lorem ipsum, dolor sit
+        <span>
+          amet consectetur adipisicing elit. Veniam architecto exercitationem </span
+        >possimus eaque officiis tenetur aliquid aliquam iusto culpa repellat.
+      </p>
+    </div>
+
+    <div id="about">
+      <h2>About</h2>
+      <p>
+        Lorem ipsum, dolor sit amet
+        <span>
+          consectetur adipisicing elit. Recusandae fuga possimus veritatis
+          minima </span
+        >expedita explicabo officia quas sequi officiis nihil.
+      </p>
+    </div>
+  </body>
+</html>
