@@ -1,0 +1,27 @@
+{
+  "folders": [
+	{
+		"path": "../../javaScript examples"
+	},
+	{
+		"path": "../../practice"
+	},
+	{
+		"path": "../../premium_docs"
+	},
+	{
+		"path": ".."
+	},
+	{
+		"path": "../../DSA"
+	}
+],
+  "settings": {
+    "files.associations": {
+      "iostream": "cpp",
+      "algorithm": "cpp",
+      "ostream": "cpp"
+    },
+    "liveServer.settings.multiRootWorkspaceName": "HTMl_CSS"
+  }
+}

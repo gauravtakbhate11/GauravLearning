@@ -141,7 +141,7 @@ p {
 #home-info .info-img {
   float: left;
   width: 50%;
-  background: url(/3.HotelWebsite/image_resources/photo-1.jpg);
+  background: url(../image_resources/photo-1.jpg);
   min-height: 100%;
 }
 #home-info .info-content {
@@ -187,8 +187,7 @@ p {
 /* testemonials */
 #testimonials {
   height: 100%;
-  background: url(/3.HotelWebsite/image_resources/test-bg.jpg) no-repeat center
-    center/cover;
+  background: url(../image_resources/test-bg.jpg) no-repeat center center/cover;
   padding: 100px;
 }
 
