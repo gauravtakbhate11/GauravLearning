@@ -6,31 +6,39 @@
 
 .body {
   font-family: Arial, Helvetica, sans-serif;
+  background: #555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
   background-color: #ccc;
   padding: 30px 30px;
-  width: 600px;
-  margin: auto;
+  width: 500px;
+  margin-top: 30px;
+  border-radius: 10px;
 }
+
 header {
-  padding: 10px;
-  margin: 20px 20px;
+  display: flex;
+
+  justify-content: center;
+  margin: 20px;
 }
 
 .container h1 {
+  align-self: center;
   display: inline;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 20px;
-  padding-right: 170px;
+
   float: right;
 }
 #item-input {
   width: 100%;
   border-radius: 5px;
   margin: 20px;
-  padding: 5px;
+  padding: 7px;
   border: solid 1px black;
   margin-left: 0;
 }
@@ -56,6 +64,8 @@ header {
   margin: 0px;
 }
 #item-list li {
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 20px;
   border: solid #777 1px;
   list-style: none;
@@ -117,6 +127,10 @@ Items .item {
   padding: 10px 15px;
   margin: 0 5px 20px;
   font-weight: 700;
+}
+
+.edit-mode {
+  color: rgb(0, 0, 255);
 }
 
 @media (max-width: 500px) {
